@@ -1,0 +1,44 @@
+import math
+def AylanaUzunligi(radius, PI=3.14):
+    return 2*PI*radius
+def AylanaDiametri(R):
+    return 2*R
+def DoiraYuzi(radius, PI=3.14):
+    return PI*radius*radius
+def IxtiyoriyUchburchakYuzasi(a,b,c,R):
+    return (a+b+c)*R/2
+def IxtiyoriyUchburchakPerimetri(a,b,c):
+    return a+b+c
+def TugriBurchakliUchburchakYuzasi(a,b):
+    return a*b/2
+def TugriBurchakliUchburchakPerimetri(a,b,c):
+    return a+b+c
+def IxtiyoriyTurtburchakYuzasi(a,b,c,d,R):
+    return (a+b+c+d)*R/2
+def KvadratYuzasi(a):
+    return a*a
+def KvadratPerimetri(a):
+    return 4*a
+def TugriTurtburchakYuzasi(a,b,S):
+    return (a*b)
+def TugriTurtburchakPerimetri(a,b,P):
+    return 2*(a+b)
+def KvgaTashqiChizilganAylanaRadiusi(S):
+    return math.sqrt(S/2)
+def YarimPerimetr(a,b,c,d):
+    return (a+b+c+d)/2
+def GeronFormulasi(p,a,b,c,d):
+    return math.sqrt(p*(p-a)*(p-b)*(p-c)*(p-d))
+def RombYuzasi(d1,d2):
+    return (d1*d2)/2
+def Rombning1Diametri(n,a):
+    return 2*math.sqrt(n*a)
+def Rombning2Diametri(m,a):
+    return 2*math.sqrt(m*a)
+def TrapetsiyaYuzasi(a,b,h):
+    return (((a+b)/2)*h)
+def TrapetsiyaBalandligi(S,a,b):
+    return (2*S)/(a+b)
+def TrapetsiyaUrtaChizigi(a,b):
+    return (a+b)/2
+
